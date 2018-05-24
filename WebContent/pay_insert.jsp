@@ -7,7 +7,7 @@
 <html:html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>措滹人力资源管理系统--薪资管理</title>
+<title>企业人力资源管理系统--薪资管理</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 <jsp:useBean id="getSystemTime" scope="page" class="com.wy.tool.GetSystemTime"></jsp:useBean>
 <script language="javascript">

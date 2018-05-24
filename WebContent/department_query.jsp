@@ -7,12 +7,12 @@
 <html:html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>措滹人力资源管理系统--部门管理</title>
+<title>企业人力资源管理系统--组织管理</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <script language="JavaScript">
 function deleteForm(date){
-if(confirm("确定要删除此部门信息吗？")){
+if(confirm("确定要删除此组织信息吗？")){
 window.location.href="department.do?method=deleteDepartment&id="+date;
 }
 }
@@ -45,7 +45,7 @@ if(str==null){
 		  <table width="494">
             <tr>
               <td width="45" height="25">&nbsp;</td>
-              <td width="437" valign="bottom"><font color="#66583D"><b>部门管理&nbsp;</b></font>&gt; <font color="#FF0000"> 部门查询</font></td>
+              <td width="437" valign="bottom"><font color="#66583D"><b>组织管理&nbsp;</b></font>&gt; <font color="#FF0000"> 组织查询</font></td>
             </tr>
           </table>
 		  </td>
@@ -60,9 +60,9 @@ if(str==null){
          <table width="650" border="1" cellpadding="1" cellspacing="1" bordercolor="#FFFFFF" bgcolor="66583D">
             <tr align="center">
               <th width="46" height="20"><span class="word_white">序号</span></th>
-              <th width="109"><span class="word_white">部门名称</span></th>
+              <th width="109"><span class="word_white">组织名称</span></th>
               <th width="138"><span class="word_white">创建时间</span></th>
-			  <th width="138"><span class="word_white">部门人数</span></th>
+			  <th width="138"><span class="word_white">组织人数</span></th>
               <th width="203"><span class="word_white">备注</span></th>
               <th width="88"><span class="word_white">操作</span></th>
             </tr>
@@ -97,7 +97,7 @@ if(str==null){
          
             <table width="650">
               <tr align="right">
-                <td><a href="department_insert.jsp">添加部门</a></td>
+                <td><a href="department_insert.jsp">添加组织</a></td>
               </tr>
           </table></td>
         </tr>

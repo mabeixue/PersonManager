@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>措滹人力资源管理系统--首页</title>
+<title>企业人力资源管理系统--首页</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 
 </head>

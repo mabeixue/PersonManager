@@ -8,7 +8,7 @@
 <html:html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>措滹人力资源管理系统--新姿管理</title>
+<title>企业人力资源管理系统--新姿管理</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <script language="JavaScript">

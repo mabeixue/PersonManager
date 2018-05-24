@@ -5,7 +5,7 @@
 <html:html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>措滹人力资源管理系统--部门管理</title>
+<title>企业人力资源管理系统--组织管理</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 <jsp:useBean id="getSystemTime" scope="page" class="com.wy.tool.GetSystemTime"></jsp:useBean>
 <script language="javascript">
@@ -37,7 +37,7 @@ return false;
           <td valign="top">		  <table width="494">
             <tr>
               <td width="45" height="25">&nbsp;</td>
-              <td width="437" valign="bottom"><font color="#66583D"><b>部门管理&nbsp;</b></font>&gt; <font color="#FF0000"> 部门添加</font></td>
+              <td width="437" valign="bottom"><font color="#66583D"><b>组织管理&nbsp;</b></font>&gt; <font color="#FF0000"> 组织添加</font></td>
             </tr>
           </table></td>
         </tr>
@@ -47,8 +47,8 @@ return false;
           <td height="436" valign="top" align="center">           <html:form action="department.do?method=insertDepartment" onsubmit="return checkEmptyForm(departmentForm)">          
             <table width="355" border="1" cellpadding="1" cellspacing="1" bordercolor="#FFFFFF" bgcolor="66583D">
               <tr>
-                <th width="79" height="30"><span class="word_white">部门名称：</span></th>
-                <td width="263" bgcolor="#FFFFFF"><html:text property="dt_name" title="请输入部门名称"/></td>
+                <th width="79" height="30"><span class="word_white">组织名称：</span></th>
+                <td width="263" bgcolor="#FFFFFF"><html:text property="dt_name" title="请输入组织名称"/></td>
               </tr>
               <tr>
                 <th height="30"><span class="word_white">创建时间：</span></th>
@@ -56,7 +56,7 @@ return false;
               </tr>
               <tr>
                 <th height="30"><span class="word_white">备注信息：</span></th>
-                <td bgcolor="#FFFFFF"><html:text property="dt_bz" title="请输入部门备注信息"/></td>
+                <td bgcolor="#FFFFFF"><html:text property="dt_bz" title="请输入组织备注信息"/></td>
               </tr>
             </table><br>         
               <html:submit>保存</html:submit>

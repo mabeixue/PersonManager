@@ -7,7 +7,7 @@
 <html:html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>措滹人力资源管理系统--招聘管理</title>
+<title>企业人力资源管理系统--招聘管理</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <script language="JavaScript">
@@ -61,7 +61,7 @@ if(str==null){
 		  <table width="494">
             <tr>
               <td width="45" height="25">&nbsp;</td>
-              <td width="437" valign="bottom"><font color="#66583D"><b>员工管理&nbsp;</b></font>&gt; <font color="#FF0000"> 员工查询</font></td>
+              <td width="437" valign="bottom"><font color="#66583D"><b>部门管理&nbsp;</b></font>&gt; <font color="#FF0000"> 员工查询</font></td>
             </tr>
           </table>
 		  </td>
